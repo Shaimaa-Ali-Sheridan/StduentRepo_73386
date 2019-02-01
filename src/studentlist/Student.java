@@ -15,7 +15,9 @@ public class Student {
     private String name;
     private int id;
     private String DoB;
-   
+
+    private int MaxHours;
+    
     public Student()
     {
            this.name = "Not Set";
@@ -56,6 +58,20 @@ public class Student {
      */
     public void setDoB(String DoB) {
         this.DoB = DoB;
+    }
+
+    /**
+     * @return the MaxHours
+     */
+    public int getMaxHours() {
+        return MaxHours;
+    }
+
+    /**
+     * @param MaxHours the MaxHours to set
+     */
+    public void setMaxHours(int MaxHours) {
+        this.MaxHours = MaxHours;
     }
             
     
